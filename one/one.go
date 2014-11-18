@@ -5,7 +5,7 @@ import (
 )
 
 func First() {
-    log.Println("First")
+    log.Println("First Print")
 }
 
 func Second() {
