@@ -5,9 +5,9 @@ import (
 )
 
 func First() {
-    log.Println("First Print")
+    log.Printf("First Print")
 }
 
 func Second() {
-    log.Println("Second")
+    log.Printf("Dustin has a nice sack")
 }
