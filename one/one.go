@@ -4,10 +4,10 @@ import (
     "log"
 )
 
-func first() {
+func First() {
     log.Println("First")
 }
 
-func second() {
+func Second() {
     log.Println("Second")
 }
