@@ -9,7 +9,7 @@ import (
 )
 
 type (
-    Options struct {
+    PlaceOptions struct {
         Width  float64 `json:"width" cmd:"width"`
         Height float64 `json:"height" cmd:"height"`
     }
@@ -22,5 +22,5 @@ func Placejames(img *img.Image, opts interface{}, conf *config.Config) (image.Im
 }
 
 func init() {
-    processors.RegisterModule("placejames", Placejames, &Options{})
+    processors.RegisterModule("placejames", Placejames, &PlaceOptions{})
 }
