@@ -1,10 +1,11 @@
-package turbo-happiness
+package turbohappiness
 
 import (
     "log"
     "image"
-    "github.com/cloud6/px/processors"
-    "github.com/cloud6/px/px"
+    "github.com/cloud6/ducking-octo-lana/processors"
+    "github.com/cloud6/ducking-octo-lana/img"
+    "github.com/cloud6/ducking-octo-lana/config"
 )
 
 type (
@@ -14,7 +15,7 @@ type (
     }
 )
 
-func Placejames(img *px.Image, opts interface{}, conf *px.Config) (image.Image, interface{}, error){
+func Placejames(img *img.Image, opts interface{}, conf *config.Config) (image.Image, interface{}, error){
 
     log.Println("YAY Resize")
     return nil, nil, nil
